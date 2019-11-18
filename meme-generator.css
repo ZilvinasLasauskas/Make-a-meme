@@ -1,0 +1,40 @@
+:root {
+    font-family: Helvetica;
+    font-size: 14px;
+}
+
+* {
+    font: inherit;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    background: skyblue;
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}
+
+#meme-canvas {
+    min-height: 450px;
+    margin: auto;
+    display: flex;
+}
+
+textarea {
+    min-width: 400px;
+}
+
+button {
+    width: -webkit-fill-available;
+    background-color: skyblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#image-input, #bottom-text-size-input, #top-text-size-input {
+    cursor: pointer;
+}
