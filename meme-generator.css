@@ -19,7 +19,8 @@ main {
 }
 
 #meme-canvas {
-    min-width: 450px;
+    min-width: 500px;
+    max-width: 500px;
     margin: auto;
     display: flex;
 }
