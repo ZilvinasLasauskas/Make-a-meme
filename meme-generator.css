@@ -24,11 +24,7 @@ main {
     display: flex;
 }
 
-@media ( max-width: 800px ) {
-    #meme-canvas {
-        max-width: 900px;
-    }
-}
+
 
 textarea {
     min-width: 400px;
